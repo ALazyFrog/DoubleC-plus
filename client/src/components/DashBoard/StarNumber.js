@@ -39,7 +39,7 @@ export default function AppItemOrders(total) {
       <IconWrapperStyle>
         <Icon icon="bytesize:star" width="24" height="24" />
       </IconWrapperStyle>
-      <Typography variant="h3">{fShortenNumber(total.total)}</Typography>
+      <Typography variant="h3">{fShortenNumber(63017)}</Typography>
       <Typography variant="subtitle2">Star Number</Typography>
     </RootStyle>
   );

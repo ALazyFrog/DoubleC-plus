@@ -27,7 +27,7 @@ const IconWrapperStyle = styled("div")(({ theme }) => ({
   )} 0%, ${alpha(theme.palette.error.dark, 0.24)} 100%)`,
 }));
 
-const TOTAL = 234;
+const TOTAL = 235813;
 
 export default function CommitNumber() {
   return (
