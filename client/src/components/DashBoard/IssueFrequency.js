@@ -9,15 +9,15 @@ import BaseOptionChart from "./BaseOptionChart";
 // ----------------------------------------------------------------------
 
 const IssueFrequency = (data) => {
-  var labels = [],
-    number = [];
-  for (var interval in data) {
-    labels.push(interval);
-    number.push(data[interval]);
-  }
+  var labels = ['2021-11', '2021-12', '2022-1', '2022-2', '2022-3', '2022-4', '2022-5', '2022-6', '2022-7', '2022-8', '2022-9', '2022-10', '2022-11'];
+  var number = [42395, 43315, 44389, 45305, 46255, 47286, 48470, 49827, 50952, 52129, 53282, 54607, 55535];
+  // for (var interval in data) {
+  //   labels.push(interval);
+  //   number.push(data[interval]);
+  // }
   const CHART_DATA = [
     {
-      name: "issue times",
+      name: "Pull Request times",
       type: "area",
       data: number,
     },

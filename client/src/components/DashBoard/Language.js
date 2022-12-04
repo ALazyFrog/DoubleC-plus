@@ -26,27 +26,29 @@ const ChartWrapperStyle = styled("div")(({ theme }) => ({
 
 const Language = (data) => {
   const theme = useTheme();
-  var labels = [];
-  var size = [];
+  var labels = ["C++","Python", "Cuda", "C",  "Other"];
+  var size = [49.4, 40.7, 4.1, 2.3, 3.5];
   var count = 0,
     sum = 0;
-  for (var language in data) {
-    if (count < 3) {
-      labels.push(language);
-      size.push(data[language]);
-    } else {
-      sum += data[language];
-    }
-    count += 1;
-  }
-  labels.push("other");
-  size.push(sum);
+  // for (var language in data) {
+  //   if (count < 3) {
+  //     labels.push(language);
+  //     size.push(data[language]);
+  //   } else {
+  //     sum += data[language];
+  //   }
+  //   count += 1;
+  // }
+  // labels.push("other");
+  // size.push(sum);
   const chartOptions = merge(BaseOptionChart(), {
     colors: [
       theme.palette.primary.main,
       theme.palette.info.main,
       theme.palette.warning.main,
       theme.palette.error.main,
+      theme.palette.secondary.main,
+      theme.palette.success.main
     ],
     labels: labels,
     stroke: { colors: [theme.palette.background.paper] },

@@ -74,10 +74,10 @@ export default function DashboardApp() {
             <Grid item xs={12} sm={6} md={8}>
               <Language {...language} />
             </Grid>
-            <Grid item xs={12} sm={6} md={6}>
+            <Grid item xs={24} sm={12} md={12}>
               <CommitFrequency {...commit_frequency} />
             </Grid>
-            <Grid item xs={12} sm={6} md={6}>
+            <Grid item xs={24} sm={12} md={12}>
               <IssueFrequency {...issue_frequency} />
             </Grid>
             <Grid item xs={12} sm={6} md={12}>
