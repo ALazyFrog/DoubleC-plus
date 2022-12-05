@@ -2,7 +2,7 @@ import pymongo
 import jsonlines
 
 def read(filename, colname):
-    mydb = myclient['mongoose']
+    mydb = myclient['monose']
     mycol = mydb[colname]
     with open(filename, 'r+', encoding='utf8') as f:
         for i in jsonlines.Reader(f):
