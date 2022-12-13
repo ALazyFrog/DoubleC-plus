@@ -53,17 +53,17 @@ const TimeLine = ({
     },
     {
       title: "latest-release",
-      time: recent_released_at,
+      time: "2022-10-29T09:35:19Z",
       type: "order2",
     },
     {
       title: "latest-update",
-      time: updated_at,
+      time: "2022-12-05T09:35:19Z",
       type: "order3",
     },
     {
       title: "latest-push",
-      time: pushed_at,
+      time: "2022-12-05T09:35:19Z",
       type: "order4",
     },
   ];
