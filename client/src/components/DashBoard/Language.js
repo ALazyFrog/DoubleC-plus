@@ -26,8 +26,8 @@ const ChartWrapperStyle = styled("div")(({ theme }) => ({
 
 const Language = (data) => {
   const theme = useTheme();
-  var labels = ["C++","Python", "Cuda", "C",  "Other"];
-  var size = [49.4, 40.7, 4.1, 2.3, 3.5];
+  var labels = ["C++", "Python", "Cuda", "Other"];
+  var size = [49.2, 40.9, 4.1, 5.8];
   var count = 0,
     sum = 0;
   // for (var language in data) {
@@ -43,11 +43,9 @@ const Language = (data) => {
   // size.push(sum);
   const chartOptions = merge(BaseOptionChart(), {
     colors: [
-      theme.palette.primary.main,
+      theme.palette.error.main,
       theme.palette.info.main,
       theme.palette.warning.main,
-      theme.palette.error.main,
-      theme.palette.secondary.main,
       theme.palette.success.main
     ],
     labels: labels,
