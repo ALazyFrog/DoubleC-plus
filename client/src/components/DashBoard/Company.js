@@ -237,8 +237,8 @@ const Company = () => {
                                 }
                             ]}
                             options={chartOptions}
-                            height={500}
-                            width={700}
+                            height={1000}
+                            width={1400}
                         />
                     </Box>
                 </TabPanel>
@@ -252,8 +252,8 @@ const Company = () => {
                                 }
                             ]}
                             options={chartOptions}
-                            height={500}
-                            width={700}
+                            height={1000}
+                            width={1400}
                         />
                     </Box>
                 </TabPanel>
@@ -267,8 +267,8 @@ const Company = () => {
                                 }
                             ]}
                             options={chartOptions}
-                            height={500}
-                            width={700}
+                            height={1000}
+                            width={1400}
                         />
                     </Box>
                 </TabPanel>
