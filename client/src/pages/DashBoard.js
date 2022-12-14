@@ -3,6 +3,9 @@ import { useAppContext } from "../context/appContext";
 import Loading from "../components/Loading";
 import { useParams } from "react-router-dom";
 import { Box, Grid, Container, Typography } from "@mui/material";
+import * as React from 'react';
+
+// import { Button } from 'rsuite';
 import {
   CommitNumber,
   IssueNumber,
@@ -14,8 +17,11 @@ import {
   CommitFrequency,
   IssueFrequency,
   ContributorList,
-  Company
+  Company,
+  Tab
 } from "../components/DashBoard";
+
+
 
 export default function DashboardApp() {
   useEffect(() => {
@@ -100,9 +106,14 @@ export default function DashboardApp() {
             <Grid item xs={12} sm={6} md={12}>
               <Company {...company} />
             </Grid>
-          </Grid>
-        </Box>
-      </Container>
+
+            <Grid item xs={12} sm={6} md={12}>
+              <Tab />
+            </Grid>
+
+          </Grid >
+        </Box >
+      </Container >
     );
   }
 }
