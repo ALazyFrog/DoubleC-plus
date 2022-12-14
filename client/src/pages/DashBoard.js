@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useAppContext } from "../context/appContext";
 import Loading from "../components/Loading";
 import { useParams } from "react-router-dom";
-import { Box, Grid, Container, Typography } from "@mui/material";
+import { Box, Grid, Container, Typography, Card, CardHeader } from "@mui/material";
 import * as React from 'react';
 
 // import { Button } from 'rsuite';
@@ -108,7 +108,10 @@ export default function DashboardApp() {
             </Grid>
 
             <Grid item xs={12} sm={6} md={12}>
-              <Tab />
+              <Card>
+                <CardHeader title="Comparation vs Tensorflow" />
+                <Tab />
+              </Card>
             </Grid>
 
           </Grid >
