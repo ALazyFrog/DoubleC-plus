@@ -30,6 +30,14 @@ const Contribute = ({ labels, commits }) => {
     xaxis: {
       categories: labels,
     },
+    yaxis: {
+      labels: {
+        style: {
+          color: "#ff0033",
+          fontSize: '24px',
+        }
+      }
+    },
     dataLabels: {
       enabled: true,
       enabledOnSeries: [0]
