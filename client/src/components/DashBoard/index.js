@@ -8,6 +8,7 @@ import Contribute from "./Contribution";
 import CommitFrequency from "./CommitFrequency";
 import IssueFrequency from "./IssueFrequency";
 import ContributorList from "./ContributorList";
+import Company from "./Company"
 
 export {
   CommitNumber,
@@ -20,4 +21,5 @@ export {
   CommitFrequency,
   IssueFrequency,
   ContributorList,
+  Company,
 };

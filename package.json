@@ -13,6 +13,7 @@
   "author": "zhu_echen",
   "license": "ISC",
   "dependencies": {
+    "antd": "^5.0.6",
     "nodemon": "^2.0.20"
   }
 }

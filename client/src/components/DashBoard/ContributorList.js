@@ -3,8 +3,9 @@ import moment from "moment";
 import { Box, Stack, Card, Typography, CardHeader, Chip } from "@mui/material";
 
 function Contributor({ contributor }) {
-  const { name, company, public_repos, followers, created_at, avatar_url } =
-    contributor;
+  const { name, company, public_repos, followers, created_at, avatar_url } = contributor;
+
+  var labels = ['ezyang', 'malfet', 'zou3519', 'gchanan', 'jerryzh168', 'apaszke', 'soumith', 'suo', 'pytorchmergebot', 'zdevito'];
   const url = "https://github.com/" + name;
   return (
     <Stack direction="row" alignItems="center" spacing={2}>
@@ -59,7 +60,7 @@ const ContributorList = (contributors) => {
   const contributorList = Object.values(contributors);
   return (
     <Card>
-      <CardHeader title="Contributors List" />
+      <CardHeader title="Core Contributors" />
       <Stack spacing={3} sx={{ p: 3, pr: 0 }}>
         {contributorList.map((contributor) => {
           return (

@@ -7,10 +7,11 @@ import BaseOptionChart from "./BaseOptionChart";
 
 // ----------------------------------------------------------------------
 
-const Contribute = ({ name, contributions }) => {
+const Contribute = ({ labels, commits }) => {
+
   const CHART_DATA = [
     {
-      data: contributions,
+      data: commits,
     },
   ];
   const chartOptions = merge(BaseOptionChart(), {
@@ -27,7 +28,11 @@ const Contribute = ({ name, contributions }) => {
       bar: { horizontal: true, barHeight: "28%", borderRadius: 2 },
     },
     xaxis: {
-      categories: name,
+      categories: labels,
+    },
+    dataLabels: {
+      enabled: true,
+      enabledOnSeries: [0]
     },
   });
 
