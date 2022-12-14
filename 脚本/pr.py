@@ -5,7 +5,7 @@ import requests
 import json
 
 urlhead = 'https://api.github.com/repos/pytorch/pytorch/pulls?page='
-urltail = '&per_page=100&state=open'
+urltail = '&per_page=100&state=all'
 token = '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'
 headers = {'Content_Type': 'application/json',
            'Authorization': 'token %s' % token}
@@ -20,6 +20,7 @@ while index <= 99:
             data = {
                 'number': commit['number'],
                 'title': commit['title'],
+                'state' : commit['state'],
                 'time': commit['created_at'],
                 'body': commit['body'],
                 'label': commit['labels']
