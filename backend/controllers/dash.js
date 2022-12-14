@@ -6,7 +6,7 @@ const config = require("../config");
 const { Octokit } = require("@octokit/core");
 const res = require("express/lib/response");
 const octokit = new Octokit({
-  auth: config.GITHUB_ACCESS_TOKEN,
+  auth:  `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`,
 });
 
 const GetMessage = async (req, res) => {
