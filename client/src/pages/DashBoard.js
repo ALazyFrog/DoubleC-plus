@@ -17,7 +17,7 @@ import {
   CommitFrequency,
   IssueFrequency,
   ContributorList,
-  Company
+  Company,
   Tab
 } from "../components/DashBoard";
 
