@@ -64,7 +64,7 @@ DoubleC-plus是一款开源项目分析平台，开源项目负责人和开发�
 
 ## 项目部署
 
-你可以通过这个[指南]()获得一个更加详细的安装教程。
+你可以通过这个[指南](https://github.com/ALazyFrog/DoubleC-plus/blob/main/Install.md)获得一个更加详细的安装教程。
 
 
 
@@ -82,11 +82,11 @@ DoubleC-plus是一款开源项目分析平台，开源项目负责人和开发�
 
 ## Requirements
 
-关于本项目的配置要求，你可以通过这个[文件]()获得一个完整的配置清单
+关于本项目的配置要求，你可以通过这个[文件](https://github.com/ALazyFrog/DoubleC-plus/blob/main/Requirements.md)获得一个完整的配置清单
 
 
 
 ## License
 
-你可以获取通过[该文件](https://github.com/ALazyFrog/DoubleC-plus)访问本项目完整的license
+你可以获取通过[该文件](https://github.com/ALazyFrog/DoubleC-plus/blob/main/LICENSE)访问本项目完整的license
 
