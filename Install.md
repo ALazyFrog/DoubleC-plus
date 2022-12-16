@@ -26,11 +26,12 @@ use these 2 instruction in your windows powershell or cmd to check if you have s
 
 ## 4. Install all dependencies
 
-Install our project dependencies by following 3 instruction:
+Install our project dependencies by following 4 instruction:
 
 ```bash
 npm run install-dependencies
 npm install nodemon
+npm install echars
 npm install react-scripts
 ```
 
