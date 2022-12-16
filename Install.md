@@ -16,6 +16,10 @@ MongoDB is the database we use in this project, you can download it's installer 
 
 After download, follow [this](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/) document to install it.
 
+After you successfully install MonogoDB, create a database named "double-c" in local.
+
+![image-20221216184125816](https://suonan-image.oss-cn-hangzhou.aliyuncs.com/img/image-20221216184125816.png)
+
 ## 3. Install nodejs
 
 Download  [nodejs installer](https://nodejs.org/en/) and install it.
