@@ -12,6 +12,7 @@ import Company from "./Company"
 import Comparation from "./Comparation";
 import DataTable from "./DataTable";
 import Tab from "./Tab"
+import Discussion from "./Discussion";
 
 export {
   CommitNumber,
@@ -27,5 +28,6 @@ export {
   Company,
   Comparation,
   DataTable,
-  Tab
+  Tab,
+  Discussion
 };

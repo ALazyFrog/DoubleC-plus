@@ -18,7 +18,8 @@ import {
   IssueFrequency,
   ContributorList,
   Company,
-  Tab
+  Tab,
+  Discussion
 } from "../components/DashBoard";
 
 
@@ -92,6 +93,9 @@ export default function DashboardApp() {
             </Grid>
             <Grid item xs={24} sm={12} md={12}>
               <IssueFrequency {...issue_frequency} />
+            </Grid>
+            <Grid item xs={24} sm={12} md={12}>
+              <Discussion {...issue_frequency} />
             </Grid>
             <Grid item xs={12} sm={6} md={12}>
               <Contribute {...contribute} />
