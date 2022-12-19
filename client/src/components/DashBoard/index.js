@@ -13,7 +13,7 @@ import Comparation from "./Comparation";
 import DataTable from "./DataTable";
 import Tab from "./Tab"
 import Discussion from "./Discussion";
-
+import ContributorHistory from "./ContributorHistory";
 export {
   CommitNumber,
   IssueNumber,
@@ -29,5 +29,6 @@ export {
   Comparation,
   DataTable,
   Tab,
-  Discussion
+  Discussion,
+  ContributorHistory
 };
