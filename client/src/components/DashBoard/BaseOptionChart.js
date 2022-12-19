@@ -41,7 +41,7 @@ export function BaseOptionChartStyle() {
               backgroundColor: theme.palette.grey[500_16],
               color:
                 theme.palette.text[
-                  theme.palette.mode === "light" ? "secondary" : "primary"
+                theme.palette.mode === "light" ? "secondary" : "primary"
                 ],
             },
           },

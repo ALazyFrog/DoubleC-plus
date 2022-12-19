@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { Box, Grid, Container, Typography, Card, CardHeader } from "@mui/material";
 import * as React from 'react';
 
-// import { Button } from 'rsuite';
 import {
   CommitNumber,
   IssueNumber,
@@ -18,7 +17,9 @@ import {
   IssueFrequency,
   ContributorList,
   Company,
-  Tab
+  Tab,
+  Discussion,
+  ContributorHistory
 } from "../components/DashBoard";
 
 
@@ -91,7 +92,13 @@ export default function DashboardApp() {
               <CommitFrequency {...commit_frequency} />
             </Grid>
             <Grid item xs={24} sm={12} md={12}>
+              <ContributorHistory {...commit_frequency} />
+            </Grid>
+            <Grid item xs={24} sm={12} md={12}>
               <IssueFrequency {...issue_frequency} />
+            </Grid>
+            <Grid item xs={24} sm={12} md={12}>
+              <Discussion {...issue_frequency} />
             </Grid>
             <Grid item xs={12} sm={6} md={12}>
               <Contribute {...contribute} />
